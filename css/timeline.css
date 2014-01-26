@@ -201,7 +201,7 @@
     content: '';
     width: 0;
     height: 0;
-    border-width: 1rem;
+    border-width: 1em;
     border-color: transparent;
     border-style: solid;
     border-left-color: #00AEEF;
@@ -240,7 +240,7 @@
     content: '';
     width: 0;
     height: 0;
-    border-width: 0.8rem;
+    border-width: 0.8em;
     border-color: transparent;
     border-style: solid;
     border-bottom-color: #00AEEF;
