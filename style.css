@@ -75,7 +75,7 @@
     }
 	
 	li {
-		list-style:none;
+		/*list-style:none;*/
 	}
 	
 	a {
@@ -500,6 +500,17 @@
 		font-size:13px;
 	}
 	
+    .toggle-title span {
+    	height:20px;
+		width:20px;
+		padding:2px;
+		background:url(images/plus.png) #999999 0px 0px no-repeat;
+		background-size:20px 20px;
+		float:left;
+		margin-right:10px;
+		border-radius: 2px;
+    }
+
 	.toggle-title a {
 		color: #666;
 		text-decoration: none;
@@ -514,13 +525,38 @@
 		padding-top: 5px;
 		padding-left: 10px;
 		padding-right: 10px;
-		font-size:13px;
+	}
+   	.toggle_container p{
+        margin: 10px 0px 20px 0px;
+        font-size: 14px;
+	}
+    .toggle_container ol{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .toggle_container ol li{
+        margin-top: 15px;
+    }
+   	.toggle_container ul{
+        list-style: disc !important;
+        margin: 0 0 20px 20px;
+        font-size: 14px;
+	}
+ 	.toggle_container ul li{
+        margin-top: 10px;
 	}
 	
 	.toggle-active {
 		color:#fff;
-		background: #222222;
+		background: #00A8FF;
 	}
+
+    .toggle-active span {
+        background:url(images/minus.png) 0px 0px no-repeat;
+		background-color:#222222;
+		background-size:20px 20px;
+    }
+
 	
 	.toggle-active a {
 		color:#FFF;
@@ -536,6 +572,18 @@
 		float:left;
 		width:100%;
 	}
+
+    .tab-title {
+        list-style: none;
+    }
+
+    .tab-shortcode p{
+        margin-bottom: 20px;
+    }
+    
+    .tab-shortcode ul{
+        margin: 5px 5px 5px 20px;
+    }
 		
 	ul.tabs { 
 		overflow: hidden; 
@@ -545,7 +593,6 @@
 	ul.tabs li { 
 		float: left; 
 		margin: 0px; 
-		list-style: none; 
 	}
 			
 	ul.tabs li a {
@@ -616,6 +663,7 @@
 	
 	.counters ul {
 		text-align:center;
+        list-style: none;
 	}
 	
 	.counters i {
@@ -776,13 +824,14 @@
 	
 	.outline {
 		background-color:none;
-		border:2px solid #222222;
-		color:#222222;
+		border:2px solid #999;
+		color:#999;
 		line-height:10px!important;
 	}		
 	
 	.outline:hover {
-		background-color:#222222;
+		background-color:#00A8FF;
+        border:2px solid #00A8FF;
 		color:#FFF;
 	}
 	
@@ -856,7 +905,7 @@
 		background-color:#FFF;
 	}
 
-	#we-are-good-at {
+	#jobs {
 		background-color:#FFF;
 	}
 
@@ -875,7 +924,10 @@
 	#contact {
 		background-color:#fff;
 	}
-	
+	/*#application {
+		background-color:#fff;
+	}*/
+    	
 	footer {
 		background-color:#fff;
 	}
